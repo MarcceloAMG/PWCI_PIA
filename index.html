@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduWeb - Portal de Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">EduWeb</a></h1>
+        <div class="auth-buttons">
+            <a href="login.html">Iniciar Sesión</a>
+            <a href="register.html" class="btn-primary">Registrarse</a>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <input type="text" placeholder="Buscar por título o palabra clave...">
+        <select>
+            <option value="">Todas las categorías</option>
+            <option value="1">IT & Software</option>
+            <option value="2">Marketing</option>
+            <option value="3">Diseño</option>
+        </select>
+        <input type="date">
+        <button type="button">Buscar</button>
+    </div>
+
+    <div class="main-layout">
+        <aside class="sidebar">
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#">IT & Software</a></li>
+                <li><a href="#">Marketing Digital</a></li>
+                <li><a href="#">Diseño Gráfico & UI</a></li>
+                <li><a href="#">Negocios & Finanzas</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h2 class="section-title">Cursos Mejor Calificados</h2>
+            <div class="course-grid">
+                <a href="curso-detalle.html" class="course-card">
+                    <div class="course-img">Desarrollo Web PHP</div>
+                    <div class="course-info">
+                        <h4>PHP Avanzado y Programación Orientada a Objetos</h4>
+                        <div class="course-price">$599.00</div>
+                    </div>
+                </a>
+            </div>
+            <!-- Puedes añadir más bloques de grids aquí si lo deseas -->
+        </main>
+    </div>
+</body>
+</html>
