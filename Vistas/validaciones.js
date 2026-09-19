@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             // 3. Validación del formato de Correo Electrónico
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+\$/;
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
                 alert("❌ Por favor, introduce un correo electrónico válido.");
                 return;
